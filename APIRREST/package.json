@@ -1,0 +1,37 @@
+{
+  "name": "si-unocell",
+  "version": "1.0.0",
+  "description": "Sistema para la empresa UNOCELL",
+  "main": "ApiRest.js",
+  "scripts": {
+    "watch": "nodemon ./ApiRest.js",
+    "test": "ApiRes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9Sam/SI-UNOCELL.git"
+  },
+  "keywords": [
+    "unocell"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9Sam/SI-UNOCELL/issues"
+  },
+  "homepage": "https://github.com/9Sam/SI-UNOCELL#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysqldump": "^3.2.0",
+    "node-cron": "^3.0.0",
+    "node-datetime": "^2.1.2",
+    "node-schedule": "^2.0.0"
+  },
+  "devDependencies": {
+    "mysql-import": "^5.0.21",
+    "nodemon": "^2.0.12"
+  }
+}
